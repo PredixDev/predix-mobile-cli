@@ -1,6 +1,6 @@
 # PM-CLI Utility (v1.0.2)
 
-Utility for working with a PM servers.
+Utility for working with PM service.
 
 
 ## Installation
