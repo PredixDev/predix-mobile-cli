@@ -1,0 +1,3079 @@
+{
+	"rows": [{
+		"key": "data-app-pm-issue-app",
+		"id": "data-app-pm-issue-app",
+		"value": {
+			"rev": "6-2520c8188330df8b49e5a005f6673f75"
+		},
+		"doc": {
+			"_attachments": {
+				"pm-issue-app.zip": {
+					"content_type": "application/octet-stream",
+					"digest": "sha1-Ui8UdiPTZA6HgbMcK7vjYdhsEyM=",
+					"length": 299318,
+					"revpos": 6,
+					"stub": true
+				}
+			},
+			"_id": "data-app-pm-issue-app",
+			"_rev": "6-2520c8188330df8b49e5a005f6673f75",
+			"channels": [
+				"entity_user1",
+				"role-user1",
+				"sync-user1"
+			],
+			"dependencies": {
+				"Chart.js": "chartjs#~1.0.2",
+				"overthrow": "~0.7.0",
+				"polymer": "~1.1.0",
+				"px-mobile": "https://github.build.ge.com/PredixComponents/px-mobile.git#develop"
+			},
+			"description": "A mobile application using px-mobile.",
+			"devDependencies": {
+				"iron-component-page": "PolymerElements/iron-component-page#~1.0.5"
+			},
+			"files": [
+				"./dist/**/*.*"
+			],
+			"ignore": [
+				"**/.*",
+				"node_modules",
+				"bower_components",
+				"test",
+				"tests"
+			],
+			"keywords": [
+				"px",
+				"px-mobile",
+				"web-component"
+			],
+			"license": "MIT",
+			"main": [
+				"index.html"
+			],
+			"name": "pm-issue-app",
+			"repository": {
+				"type": "git",
+				"url": "https://github.build.ge.com/Org/repo.git"
+			},
+			"version": "0.0.1"
+		}
+	}, {
+		"key": "data-app-px-mobile",
+		"id": "data-app-px-mobile",
+		"value": {
+			"rev": "2-019c555585e2b5c777dff1fda11bbc74"
+		},
+		"doc": {
+			"_attachments": {
+				"px-mobile.zip": {
+					"content_type": "application/octet-stream",
+					"digest": "sha1-cfZ5PsSHIxGoBfiBEPtmZI8Mlus=",
+					"length": 3186300,
+					"revpos": 2,
+					"stub": true
+				}
+			},
+			"_id": "data-app-px-mobile",
+			"_rev": "2-019c555585e2b5c777dff1fda11bbc74",
+			"authors": [
+				"Jonnie Spratley <jonnie.spratley@ge.com>"
+			],
+			"channels": [
+				"role-user"
+			],
+			"dependencies": {
+				"es6-shim": "~0.33.0",
+				"fastclick": "~1.0.6",
+				"fetch": "~0.9.0",
+				"font-awesome": "~4.4.0",
+				"polymer": "~1.1.5",
+				"system.js": "~0.18.10",
+				"webcomponentsjs": "~0.7.14"
+			},
+			"description": "A suite of modules for usage in a Predix Mobile application.",
+			"devDependencies": {
+				"blanket": "~1.1.7",
+				"chai": "~3.3.0",
+				"code-prettify": "*",
+				"expect": "~0.3.1",
+				"fetch-mock": "~2.1.0",
+				"highlightjs": "~8.8.0",
+				"iron-component-page": "PolymerElements/iron-component-page#~1.0.5",
+				"jquery": "~2.1.4",
+				"mocha": "~2.3.2",
+				"sinon": "~1.16.1",
+				"web-component-tester": "~3.3.22"
+			},
+			"files": [
+				"./dist/**/*.*"
+			],
+			"ignore": [
+				"**/.*",
+				".tmp",
+				"coverage",
+				"tasks",
+				"node_modules",
+				"bower_components"
+			],
+			"keywords": [
+				"px",
+				"px-mobile"
+			],
+			"license": "MIT",
+			"main": "demo/index.html",
+			"moduleType": [
+				"es6",
+				"web-component"
+			],
+			"name": "px-mobile",
+			"private": true,
+			"repository": {
+				"type": "git",
+				"url": "https://github.build.ge.com/PredixComponents/px-mobile.git"
+			},
+			"resolutions": {
+				"chai": "^2.3.0",
+				"polymer": "~1.1.5"
+			},
+			"version": "0.0.1"
+		}
+	}, {
+		"key": "folder-actions",
+		"id": "folder-actions",
+		"value": {
+			"rev": "1-d4c27199ac937a6b3463f1783a0af4cc"
+		},
+		"doc": {
+			"_id": "folder-actions",
+			"_rev": "1-d4c27199ac937a6b3463f1783a0af4cc",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "action",
+			"parent": [
+				"root"
+			],
+			"type": "action"
+		}
+	}, {
+		"key": "folder-activities",
+		"id": "folder-activities",
+		"value": {
+			"rev": "1-ad4d2019569c491985dd6754163795bd"
+		},
+		"doc": {
+			"_id": "folder-activities",
+			"_rev": "1-ad4d2019569c491985dd6754163795bd",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "activity",
+			"parent": [
+				"root"
+			],
+			"type": "activity"
+		}
+	}, {
+		"key": "folder-cards",
+		"id": "folder-cards",
+		"value": {
+			"rev": "1-61ed69003e766877fc515f815b48e118"
+		},
+		"doc": {
+			"_id": "folder-cards",
+			"_rev": "1-61ed69003e766877fc515f815b48e118",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "cards",
+			"parent": [
+				"root"
+			],
+			"type": "cards"
+		}
+	}, {
+		"key": "folder-commands",
+		"id": "folder-commands",
+		"value": {
+			"rev": "1-6f1fc1eb83811c81e7d102c1e042b7f0"
+		},
+		"doc": {
+			"_id": "folder-commands",
+			"_rev": "1-6f1fc1eb83811c81e7d102c1e042b7f0",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "command",
+			"parent": [
+				"root"
+			],
+			"type": "command"
+		}
+	}, {
+		"key": "folder-documents",
+		"id": "folder-documents",
+		"value": {
+			"rev": "1-e4ae0f9236c4314233e00779a4fbd00c"
+		},
+		"doc": {
+			"_id": "folder-documents",
+			"_rev": "1-e4ae0f9236c4314233e00779a4fbd00c",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "documents",
+			"parent": [
+				"root"
+			],
+			"type": "documents"
+		}
+	}, {
+		"key": "folder-logs",
+		"id": "folder-logs",
+		"value": {
+			"rev": "1-d7e5984bc82370b9f375202583242aa6"
+		},
+		"doc": {
+			"_id": "folder-logs",
+			"_rev": "1-d7e5984bc82370b9f375202583242aa6",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "logs",
+			"parent": [
+				"root"
+			],
+			"type": "logs"
+		}
+	}, {
+		"key": "folder-resources",
+		"id": "folder-resources",
+		"value": {
+			"rev": "1-98857ee36326450f076416d81cfadc1d"
+		},
+		"doc": {
+			"_id": "folder-resources",
+			"_rev": "1-98857ee36326450f076416d81cfadc1d",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "resources",
+			"parent": [
+				"root"
+			],
+			"type": "resources"
+		}
+	}, {
+		"key": "folder-tags",
+		"id": "folder-tags",
+		"value": {
+			"rev": "1-43df4cf29ba5545d8c911b034d71615e"
+		},
+		"doc": {
+			"_id": "folder-tags",
+			"_rev": "1-43df4cf29ba5545d8c911b034d71615e",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "tags",
+			"parent": [
+				"root"
+			],
+			"type": "tags"
+		}
+	}, {
+		"key": "folder-users",
+		"id": "folder-users",
+		"value": {
+			"rev": "1-b454913e1a40323feb700e3ea1935cdb"
+		},
+		"doc": {
+			"_id": "folder-users",
+			"_rev": "1-b454913e1a40323feb700e3ea1935cdb",
+			"channels": [
+				"role-user"
+			],
+			"children": [],
+			"dataType": "folder",
+			"displayName": "users",
+			"parent": [
+				"root"
+			],
+			"type": "users"
+		}
+	}, {
+		"key": "resource-issue-052B3BAA-DAA2-5F18-22FD-2DB92D5FB0C6",
+		"id": "resource-issue-052B3BAA-DAA2-5F18-22FD-2DB92D5FB0C6",
+		"value": {
+			"rev": "2-0edb6eab5efdf0fafe64c1ebd27ac14f"
+		},
+		"doc": {
+			"_id": "resource-issue-052B3BAA-DAA2-5F18-22FD-2DB92D5FB0C6",
+			"_rev": "2-0edb6eab5efdf0fafe64c1ebd27ac14f",
+			"assignee": "Lareina I. Gamble",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-03-11 20:47:52",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2015-11-07 18:31:41"
+		}
+	}, {
+		"key": "resource-issue-0568B8A6-7FD3-94BC-EB65-55F058E9BD03",
+		"id": "resource-issue-0568B8A6-7FD3-94BC-EB65-55F058E9BD03",
+		"value": {
+			"rev": "2-e5436afb65066d77667489947c7c2f34"
+		},
+		"doc": {
+			"_id": "resource-issue-0568B8A6-7FD3-94BC-EB65-55F058E9BD03",
+			"_rev": "2-e5436afb65066d77667489947c7c2f34",
+			"assignee": "Lila Price",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-17 12:47:01",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-12-18 12:10:42"
+		}
+	}, {
+		"key": "resource-issue-09476BD6-B020-90BC-5BD0-1D2F71DF1351",
+		"id": "resource-issue-09476BD6-B020-90BC-5BD0-1D2F71DF1351",
+		"value": {
+			"rev": "2-fc2bab644bf45545830bed1cade42cfc"
+		},
+		"doc": {
+			"_id": "resource-issue-09476BD6-B020-90BC-5BD0-1D2F71DF1351",
+			"_rev": "2-fc2bab644bf45545830bed1cade42cfc",
+			"assignee": "Teegan Stein",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-05-04 03:42:07",
+			"customer": "Yahoo",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2016-02-06 03:35:37"
+		}
+	}, {
+		"key": "resource-issue-0A717FC3-B0FD-33B6-627D-AC1289E9581C",
+		"id": "resource-issue-0A717FC3-B0FD-33B6-627D-AC1289E9581C",
+		"value": {
+			"rev": "2-56b46823225334c915c516b375d011c4"
+		},
+		"doc": {
+			"_id": "resource-issue-0A717FC3-B0FD-33B6-627D-AC1289E9581C",
+			"_rev": "2-56b46823225334c915c516b375d011c4",
+			"assignee": "Burton Weaver",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-04 20:46:45",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-09-14 16:17:50"
+		}
+	}, {
+		"key": "resource-issue-0A8222C5-FBD2-BAE1-BE14-82044B084D1F",
+		"id": "resource-issue-0A8222C5-FBD2-BAE1-BE14-82044B084D1F",
+		"value": {
+			"rev": "2-ac9efaca09cf9b783be02d5a72d7fc37"
+		},
+		"doc": {
+			"_id": "resource-issue-0A8222C5-FBD2-BAE1-BE14-82044B084D1F",
+			"_rev": "2-ac9efaca09cf9b783be02d5a72d7fc37",
+			"assignee": "Ima S. Klein",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-05-01 18:01:09",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2016-07-07 12:47:37"
+		}
+	}, {
+		"key": "resource-issue-0B1932A0-A12D-F9FF-395B-BB3C4D64A149",
+		"id": "resource-issue-0B1932A0-A12D-F9FF-395B-BB3C4D64A149",
+		"value": {
+			"rev": "2-018b919462a45acd9a9a29a6a18350de"
+		},
+		"doc": {
+			"_id": "resource-issue-0B1932A0-A12D-F9FF-395B-BB3C4D64A149",
+			"_rev": "2-018b919462a45acd9a9a29a6a18350de",
+			"assignee": "Reagan L. Baxter",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-01 12:39:20",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2016-01-03 12:54:07"
+		}
+	}, {
+		"key": "resource-issue-0E55ECEE-274D-E4BB-323F-F6D61BC3F2BB",
+		"id": "resource-issue-0E55ECEE-274D-E4BB-323F-F6D61BC3F2BB",
+		"value": {
+			"rev": "2-4f36792c01ef3841703e3305a682b051"
+		},
+		"doc": {
+			"_id": "resource-issue-0E55ECEE-274D-E4BB-323F-F6D61BC3F2BB",
+			"_rev": "2-4f36792c01ef3841703e3305a682b051",
+			"assignee": "Rosalyn Valentine",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-02-26 01:55:09",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2016-09-30 09:38:16"
+		}
+	}, {
+		"key": "resource-issue-1182E386-A90E-4973-010A-6B2ABF4CE00B",
+		"id": "resource-issue-1182E386-A90E-4973-010A-6B2ABF4CE00B",
+		"value": {
+			"rev": "2-45feb8c1a563dbd711de501e76747877"
+		},
+		"doc": {
+			"_id": "resource-issue-1182E386-A90E-4973-010A-6B2ABF4CE00B",
+			"_rev": "2-45feb8c1a563dbd711de501e76747877",
+			"assignee": "Lars Coffey",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-06-09 07:06:07",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2016-09-08 08:09:40"
+		}
+	}, {
+		"key": "resource-issue-17CCE364-ABA1-E976-2CCC-6D361F48DDF9",
+		"id": "resource-issue-17CCE364-ABA1-E976-2CCC-6D361F48DDF9",
+		"value": {
+			"rev": "2-4f8980da79cf1f9f94f925d723f836b8"
+		},
+		"doc": {
+			"_id": "resource-issue-17CCE364-ABA1-E976-2CCC-6D361F48DDF9",
+			"_rev": "2-4f8980da79cf1f9f94f925d723f836b8",
+			"assignee": "Teegan R. Sullivan",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-04-15 17:07:57",
+			"customer": "Sibelius",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2015-09-16 07:48:16"
+		}
+	}, {
+		"key": "resource-issue-1875D516-DEAA-0FCB-8662-6DD0CF0871AA",
+		"id": "resource-issue-1875D516-DEAA-0FCB-8662-6DD0CF0871AA",
+		"value": {
+			"rev": "2-b1a878b1f96cdcee61196e75ec5cc0fd"
+		},
+		"doc": {
+			"_id": "resource-issue-1875D516-DEAA-0FCB-8662-6DD0CF0871AA",
+			"_rev": "2-b1a878b1f96cdcee61196e75ec5cc0fd",
+			"assignee": "Jaquelyn Barrera",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-01-16 00:47:19",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "pending",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2014-11-23 22:40:49"
+		}
+	}, {
+		"key": "resource-issue-1A5E0034-44B5-6ECD-5140-FF0BFB757A2E",
+		"id": "resource-issue-1A5E0034-44B5-6ECD-5140-FF0BFB757A2E",
+		"value": {
+			"rev": "2-41a1b4f23a98f31cc0d444ae449f5292"
+		},
+		"doc": {
+			"_id": "resource-issue-1A5E0034-44B5-6ECD-5140-FF0BFB757A2E",
+			"_rev": "2-41a1b4f23a98f31cc0d444ae449f5292",
+			"assignee": "Marah Soto",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-11-09 00:53:59",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2014-11-28 19:21:33"
+		}
+	}, {
+		"key": "resource-issue-1B8AD7A0-97AB-98AC-E675-99716319727C",
+		"id": "resource-issue-1B8AD7A0-97AB-98AC-E675-99716319727C",
+		"value": {
+			"rev": "2-d555db0c0349cbb23bd246e762054d4a"
+		},
+		"doc": {
+			"_id": "resource-issue-1B8AD7A0-97AB-98AC-E675-99716319727C",
+			"_rev": "2-d555db0c0349cbb23bd246e762054d4a",
+			"assignee": "Rhiannon Guzman",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-05-03 13:32:32",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-11-08 10:49:06"
+		}
+	}, {
+		"key": "resource-issue-1D7C2AC4-1AAF-98C7-3917-51CB651FAB36",
+		"id": "resource-issue-1D7C2AC4-1AAF-98C7-3917-51CB651FAB36",
+		"value": {
+			"rev": "2-a6fc3d4afa3a8edc6c257c15093a043e"
+		},
+		"doc": {
+			"_id": "resource-issue-1D7C2AC4-1AAF-98C7-3917-51CB651FAB36",
+			"_rev": "2-a6fc3d4afa3a8edc6c257c15093a043e",
+			"assignee": "Maxwell Z. Rocha",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-08-15 15:58:21",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2015-04-09 06:26:57"
+		}
+	}, {
+		"key": "resource-issue-1FCFC0F4-50CD-1717-4A5A-200F7549ECA5",
+		"id": "resource-issue-1FCFC0F4-50CD-1717-4A5A-200F7549ECA5",
+		"value": {
+			"rev": "2-036c2b70ba992751df021bc906288c6e"
+		},
+		"doc": {
+			"_id": "resource-issue-1FCFC0F4-50CD-1717-4A5A-200F7549ECA5",
+			"_rev": "2-036c2b70ba992751df021bc906288c6e",
+			"assignee": "Keith Crosby",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-05-02 21:42:16",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-10-03 00:46:09"
+		}
+	}, {
+		"key": "resource-issue-20A49FE9-F1BB-0047-F1CA-2CB379583190",
+		"id": "resource-issue-20A49FE9-F1BB-0047-F1CA-2CB379583190",
+		"value": {
+			"rev": "2-20d6b47f7701a47b282909f67405a8f2"
+		},
+		"doc": {
+			"_id": "resource-issue-20A49FE9-F1BB-0047-F1CA-2CB379583190",
+			"_rev": "2-20d6b47f7701a47b282909f67405a8f2",
+			"assignee": "Ebony S. Pierce",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-25 21:21:17",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2015-09-08 18:34:05"
+		}
+	}, {
+		"key": "resource-issue-21E88657-6538-13DD-BF06-CBE16CF47C6E",
+		"id": "resource-issue-21E88657-6538-13DD-BF06-CBE16CF47C6E",
+		"value": {
+			"rev": "2-5ed95412cdc67045baac85b665baed59"
+		},
+		"doc": {
+			"_id": "resource-issue-21E88657-6538-13DD-BF06-CBE16CF47C6E",
+			"_rev": "2-5ed95412cdc67045baac85b665baed59",
+			"assignee": "Hannah T. Talley",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-19 06:47:37",
+			"customer": "Lavasoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2014-12-11 10:26:56"
+		}
+	}, {
+		"key": "resource-issue-234B8A14-8429-1C59-C74F-C371BF923A62",
+		"id": "resource-issue-234B8A14-8429-1C59-C74F-C371BF923A62",
+		"value": {
+			"rev": "2-0c13775717ad0f42bd4f51e062c4a4f4"
+		},
+		"doc": {
+			"_id": "resource-issue-234B8A14-8429-1C59-C74F-C371BF923A62",
+			"_rev": "2-0c13775717ad0f42bd4f51e062c4a4f4",
+			"assignee": "Kaye Riley",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-10 09:34:09",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-05-12 06:10:15"
+		}
+	}, {
+		"key": "resource-issue-24FF8BCF-9703-56AB-4CB7-422BE6C8F261",
+		"id": "resource-issue-24FF8BCF-9703-56AB-4CB7-422BE6C8F261",
+		"value": {
+			"rev": "2-7e9d02c7886575466c07ad20a7c8f480"
+		},
+		"doc": {
+			"_id": "resource-issue-24FF8BCF-9703-56AB-4CB7-422BE6C8F261",
+			"_rev": "2-7e9d02c7886575466c07ad20a7c8f480",
+			"assignee": "Yoshio V. Moran",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-01-25 00:48:40",
+			"customer": "Yahoo",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2016-05-29 14:27:18"
+		}
+	}, {
+		"key": "resource-issue-283E85F4-003E-619B-F793-1E5B53CA83E8",
+		"id": "resource-issue-283E85F4-003E-619B-F793-1E5B53CA83E8",
+		"value": {
+			"rev": "2-cd7c855521d8859b4c83220503bf6143"
+		},
+		"doc": {
+			"_id": "resource-issue-283E85F4-003E-619B-F793-1E5B53CA83E8",
+			"_rev": "2-cd7c855521d8859b4c83220503bf6143",
+			"assignee": "Chase Kane",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-04-29 23:15:57",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2016-08-10 08:41:03"
+		}
+	}, {
+		"key": "resource-issue-2C406AA1-3BDF-26B5-D7FE-88485084995C",
+		"id": "resource-issue-2C406AA1-3BDF-26B5-D7FE-88485084995C",
+		"value": {
+			"rev": "2-48d46da93671d47837ef0a2e51e613dc"
+		},
+		"doc": {
+			"_id": "resource-issue-2C406AA1-3BDF-26B5-D7FE-88485084995C",
+			"_rev": "2-48d46da93671d47837ef0a2e51e613dc",
+			"assignee": "Rachel Woodward",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-12-17 11:17:17",
+			"customer": "Finale",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-01-30 07:15:15"
+		}
+	}, {
+		"key": "resource-issue-2CE18793-A73B-C5E7-F188-49678DB3F74F",
+		"id": "resource-issue-2CE18793-A73B-C5E7-F188-49678DB3F74F",
+		"value": {
+			"rev": "2-9d1144c50998bf7d185dad1fe6d2da9c"
+		},
+		"doc": {
+			"_id": "resource-issue-2CE18793-A73B-C5E7-F188-49678DB3F74F",
+			"_rev": "2-9d1144c50998bf7d185dad1fe6d2da9c",
+			"assignee": "Ivan Roach",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-08-16 01:47:17",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "pending",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2016-03-22 08:44:17"
+		}
+	}, {
+		"key": "resource-issue-32591B44-62C0-8248-5BE2-2B53BCF2AEC2",
+		"id": "resource-issue-32591B44-62C0-8248-5BE2-2B53BCF2AEC2",
+		"value": {
+			"rev": "2-7a9d0822fc2bccf62d5381d56d2b4d96"
+		},
+		"doc": {
+			"_id": "resource-issue-32591B44-62C0-8248-5BE2-2B53BCF2AEC2",
+			"_rev": "2-7a9d0822fc2bccf62d5381d56d2b4d96",
+			"assignee": "Jamal L. Landry",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-10-03 19:12:23",
+			"customer": "Sibelius",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2016-06-24 14:08:59"
+		}
+	}, {
+		"key": "resource-issue-336FFD7B-45C9-6314-2637-09EABF786AF4",
+		"id": "resource-issue-336FFD7B-45C9-6314-2637-09EABF786AF4",
+		"value": {
+			"rev": "2-2fb6c73a2fc0a0fa35dea48410d08c2c"
+		},
+		"doc": {
+			"_id": "resource-issue-336FFD7B-45C9-6314-2637-09EABF786AF4",
+			"_rev": "2-2fb6c73a2fc0a0fa35dea48410d08c2c",
+			"assignee": "Lael Shepard",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-09-23 21:03:25",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2014-12-14 18:33:23"
+		}
+	}, {
+		"key": "resource-issue-3389E59A-A5B6-B4A7-603D-58081704F8A8",
+		"id": "resource-issue-3389E59A-A5B6-B4A7-603D-58081704F8A8",
+		"value": {
+			"rev": "2-6290137a9d142444c20c007a243a825a"
+		},
+		"doc": {
+			"_id": "resource-issue-3389E59A-A5B6-B4A7-603D-58081704F8A8",
+			"_rev": "2-6290137a9d142444c20c007a243a825a",
+			"assignee": "Jerome Holloway",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-07-17 22:00:40",
+			"customer": "Finale",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "closed",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2014-11-03 04:50:13"
+		}
+	}, {
+		"key": "resource-issue-342C3EC7-93F5-DEC4-BEC2-EDE71777F280",
+		"id": "resource-issue-342C3EC7-93F5-DEC4-BEC2-EDE71777F280",
+		"value": {
+			"rev": "2-2625843c597bf115a42cf68c97409584"
+		},
+		"doc": {
+			"_id": "resource-issue-342C3EC7-93F5-DEC4-BEC2-EDE71777F280",
+			"_rev": "2-2625843c597bf115a42cf68c97409584",
+			"assignee": "Rudyard A. Espinoza",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-08-05 19:27:29",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2015-01-05 17:55:40"
+		}
+	}, {
+		"key": "resource-issue-38D9F4FF-A682-B8FF-C072-A05028B03A74",
+		"id": "resource-issue-38D9F4FF-A682-B8FF-C072-A05028B03A74",
+		"value": {
+			"rev": "2-e77960b27dbb49ace03af2e12b950f3b"
+		},
+		"doc": {
+			"_id": "resource-issue-38D9F4FF-A682-B8FF-C072-A05028B03A74",
+			"_rev": "2-e77960b27dbb49ace03af2e12b950f3b",
+			"assignee": "Zia S. Daugherty",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-07-18 08:41:15",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2016-04-09 09:43:40"
+		}
+	}, {
+		"key": "resource-issue-3D1992F9-5183-47C8-5D00-324F70DD1444",
+		"id": "resource-issue-3D1992F9-5183-47C8-5D00-324F70DD1444",
+		"value": {
+			"rev": "2-94cc814f1529d19edab0957134375121"
+		},
+		"doc": {
+			"_id": "resource-issue-3D1992F9-5183-47C8-5D00-324F70DD1444",
+			"_rev": "2-94cc814f1529d19edab0957134375121",
+			"assignee": "Mariam A. Bryant",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-04-24 20:45:49",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "pending",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2014-11-25 11:28:08"
+		}
+	}, {
+		"key": "resource-issue-3E4D31A0-E9E5-3987-9B23-7EA68D38EBCC",
+		"id": "resource-issue-3E4D31A0-E9E5-3987-9B23-7EA68D38EBCC",
+		"value": {
+			"rev": "2-e4f1fa1cbd59bbcc049ea8d930aa0b37"
+		},
+		"doc": {
+			"_id": "resource-issue-3E4D31A0-E9E5-3987-9B23-7EA68D38EBCC",
+			"_rev": "2-e4f1fa1cbd59bbcc049ea8d930aa0b37",
+			"assignee": "Erin W. Nichols",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-01-03 19:25:55",
+			"customer": "Sibelius",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2016-04-20 10:18:54"
+		}
+	}, {
+		"key": "resource-issue-404F3992-7531-64CD-140D-9AF9F3361236",
+		"id": "resource-issue-404F3992-7531-64CD-140D-9AF9F3361236",
+		"value": {
+			"rev": "2-1e0b3efef392d5c9a708dadfad4b13cb"
+		},
+		"doc": {
+			"_id": "resource-issue-404F3992-7531-64CD-140D-9AF9F3361236",
+			"_rev": "2-1e0b3efef392d5c9a708dadfad4b13cb",
+			"assignee": "Yuli Stokes",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-11-18 13:29:51",
+			"customer": "Finale",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2016-02-04 01:28:00"
+		}
+	}, {
+		"key": "resource-issue-49309CCB-A17A-13BB-303D-18973983F350",
+		"id": "resource-issue-49309CCB-A17A-13BB-303D-18973983F350",
+		"value": {
+			"rev": "2-12f2da570bdcf169db34f1476aa9fd4f"
+		},
+		"doc": {
+			"_id": "resource-issue-49309CCB-A17A-13BB-303D-18973983F350",
+			"_rev": "2-12f2da570bdcf169db34f1476aa9fd4f",
+			"assignee": "Aretha Greene",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-08-07 20:23:55",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2015-09-13 22:21:12"
+		}
+	}, {
+		"key": "resource-issue-4F28198B-7951-AED2-7A92-4BB934478D16",
+		"id": "resource-issue-4F28198B-7951-AED2-7A92-4BB934478D16",
+		"value": {
+			"rev": "2-7556b49ea11607fd019cf0b30eb77d65"
+		},
+		"doc": {
+			"_id": "resource-issue-4F28198B-7951-AED2-7A92-4BB934478D16",
+			"_rev": "2-7556b49ea11607fd019cf0b30eb77d65",
+			"assignee": "Rooney S. Becker",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-16 15:19:44",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2015-02-04 14:06:14"
+		}
+	}, {
+		"key": "resource-issue-500A503A-27B6-1A66-65F3-5A67CA826CB9",
+		"id": "resource-issue-500A503A-27B6-1A66-65F3-5A67CA826CB9",
+		"value": {
+			"rev": "2-35e74fd368dd3bf413983293853aebc5"
+		},
+		"doc": {
+			"_id": "resource-issue-500A503A-27B6-1A66-65F3-5A67CA826CB9",
+			"_rev": "2-35e74fd368dd3bf413983293853aebc5",
+			"assignee": "Tashya X. Bryan",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-06-20 05:40:12",
+			"customer": "Lavasoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-10-02 13:26:49"
+		}
+	}, {
+		"key": "resource-issue-545C5E65-DFDA-15EE-1379-C4162605F156",
+		"id": "resource-issue-545C5E65-DFDA-15EE-1379-C4162605F156",
+		"value": {
+			"rev": "2-a759547ac66671990edae23b274e1216"
+		},
+		"doc": {
+			"_id": "resource-issue-545C5E65-DFDA-15EE-1379-C4162605F156",
+			"_rev": "2-a759547ac66671990edae23b274e1216",
+			"assignee": "Helen J. Crosby",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-29 18:13:21",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2016-03-15 12:16:27"
+		}
+	}, {
+		"key": "resource-issue-55151705-6102-377A-63D1-B1333D918569",
+		"id": "resource-issue-55151705-6102-377A-63D1-B1333D918569",
+		"value": {
+			"rev": "2-fb256a732d65e9f2a54b849cfc5779f0"
+		},
+		"doc": {
+			"_id": "resource-issue-55151705-6102-377A-63D1-B1333D918569",
+			"_rev": "2-fb256a732d65e9f2a54b849cfc5779f0",
+			"assignee": "Halla S. Rosario",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-08-06 15:04:55",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2016-06-11 20:29:43"
+		}
+	}, {
+		"key": "resource-issue-58B88E2F-03AA-84EB-C752-7B1389F517C1",
+		"id": "resource-issue-58B88E2F-03AA-84EB-C752-7B1389F517C1",
+		"value": {
+			"rev": "2-7e87e21f7098d75ed9866f1b26329b09"
+		},
+		"doc": {
+			"_id": "resource-issue-58B88E2F-03AA-84EB-C752-7B1389F517C1",
+			"_rev": "2-7e87e21f7098d75ed9866f1b26329b09",
+			"assignee": "Aphrodite J. Gentry",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-12 09:16:23",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-04-24 10:48:23"
+		}
+	}, {
+		"key": "resource-issue-6030A64E-E357-5082-5E90-5C3A1E2D3A02",
+		"id": "resource-issue-6030A64E-E357-5082-5E90-5C3A1E2D3A02",
+		"value": {
+			"rev": "2-d61c888f42f5266290691f284b2cbd5f"
+		},
+		"doc": {
+			"_id": "resource-issue-6030A64E-E357-5082-5E90-5C3A1E2D3A02",
+			"_rev": "2-d61c888f42f5266290691f284b2cbd5f",
+			"assignee": "Whoopi E. Oneil",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-10-11 19:49:00",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2015-05-24 14:16:51"
+		}
+	}, {
+		"key": "resource-issue-67F08E54-5EEE-3996-98D3-B80196C655EF",
+		"id": "resource-issue-67F08E54-5EEE-3996-98D3-B80196C655EF",
+		"value": {
+			"rev": "2-eb566795906fdeb6d8a17ce3c602845c"
+		},
+		"doc": {
+			"_id": "resource-issue-67F08E54-5EEE-3996-98D3-B80196C655EF",
+			"_rev": "2-eb566795906fdeb6d8a17ce3c602845c",
+			"assignee": "Lillian W. Parsons",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-07-01 11:57:23",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2015-02-13 01:58:17"
+		}
+	}, {
+		"key": "resource-issue-681F7732-9396-D35F-768C-DC48423F73A6",
+		"id": "resource-issue-681F7732-9396-D35F-768C-DC48423F73A6",
+		"value": {
+			"rev": "2-78d1d0a76938eab5826ae92c645e91e4"
+		},
+		"doc": {
+			"_id": "resource-issue-681F7732-9396-D35F-768C-DC48423F73A6",
+			"_rev": "2-78d1d0a76938eab5826ae92c645e91e4",
+			"assignee": "Cameron E. Figueroa",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-03-14 05:11:13",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-01-27 23:18:55"
+		}
+	}, {
+		"key": "resource-issue-73D335A8-4822-33B7-4552-1AC4C041E1EE",
+		"id": "resource-issue-73D335A8-4822-33B7-4552-1AC4C041E1EE",
+		"value": {
+			"rev": "2-db7e6c70087f389f362182f3ee977966"
+		},
+		"doc": {
+			"_id": "resource-issue-73D335A8-4822-33B7-4552-1AC4C041E1EE",
+			"_rev": "2-db7e6c70087f389f362182f3ee977966",
+			"assignee": "Ian L. Thompson",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-02-10 04:46:45",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2016-01-09 04:22:26"
+		}
+	}, {
+		"key": "resource-issue-7465D591-B9C3-545B-AF9F-2F9EA0FE10A0",
+		"id": "resource-issue-7465D591-B9C3-545B-AF9F-2F9EA0FE10A0",
+		"value": {
+			"rev": "2-4fa0e28fc614032daa3e262f2bd5223a"
+		},
+		"doc": {
+			"_id": "resource-issue-7465D591-B9C3-545B-AF9F-2F9EA0FE10A0",
+			"_rev": "2-4fa0e28fc614032daa3e262f2bd5223a",
+			"assignee": "Risa U. Kelley",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-08-14 13:38:12",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2014-10-21 11:52:47"
+		}
+	}, {
+		"key": "resource-issue-767A15A2-DE7D-1F8C-4492-7735F7E1AEA0",
+		"id": "resource-issue-767A15A2-DE7D-1F8C-4492-7735F7E1AEA0",
+		"value": {
+			"rev": "2-fde0ae249ebf15b35d7872585efeda0a"
+		},
+		"doc": {
+			"_id": "resource-issue-767A15A2-DE7D-1F8C-4492-7735F7E1AEA0",
+			"_rev": "2-fde0ae249ebf15b35d7872585efeda0a",
+			"assignee": "Laith Franco",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-11-10 04:35:53",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2016-02-01 22:31:26"
+		}
+	}, {
+		"key": "resource-issue-789AC945-3AAE-A0DD-6CF2-84D0DC386B24",
+		"id": "resource-issue-789AC945-3AAE-A0DD-6CF2-84D0DC386B24",
+		"value": {
+			"rev": "2-793c1246f157f9ae9d1ca5fcfae632dd"
+		},
+		"doc": {
+			"_id": "resource-issue-789AC945-3AAE-A0DD-6CF2-84D0DC386B24",
+			"_rev": "2-793c1246f157f9ae9d1ca5fcfae632dd",
+			"assignee": "Jessica Rush",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-05-08 01:55:44",
+			"customer": "Lavasoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-10-24 20:24:05"
+		}
+	}, {
+		"key": "resource-issue-7A95DD28-E397-3BE6-1C0E-F98A48AEAA4D",
+		"id": "resource-issue-7A95DD28-E397-3BE6-1C0E-F98A48AEAA4D",
+		"value": {
+			"rev": "2-51611eda3d5849dd678a7c497447534c"
+		},
+		"doc": {
+			"_id": "resource-issue-7A95DD28-E397-3BE6-1C0E-F98A48AEAA4D",
+			"_rev": "2-51611eda3d5849dd678a7c497447534c",
+			"assignee": "Brenna G. Buckley",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-04-05 07:46:02",
+			"customer": "Lavasoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-07-01 12:41:03"
+		}
+	}, {
+		"key": "resource-issue-7AD3651B-4F79-D2ED-1DC5-427D4D0AF102",
+		"id": "resource-issue-7AD3651B-4F79-D2ED-1DC5-427D4D0AF102",
+		"value": {
+			"rev": "2-412708de0e3fc6757663e63b64914521"
+		},
+		"doc": {
+			"_id": "resource-issue-7AD3651B-4F79-D2ED-1DC5-427D4D0AF102",
+			"_rev": "2-412708de0e3fc6757663e63b64914521",
+			"assignee": "Stacy Burnett",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-11-19 04:12:31",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2015-04-06 03:59:25"
+		}
+	}, {
+		"key": "resource-issue-7CB93F72-8D3B-14A4-B3B1-18D765A8A0B7",
+		"id": "resource-issue-7CB93F72-8D3B-14A4-B3B1-18D765A8A0B7",
+		"value": {
+			"rev": "2-93381e7e4bb2f95eeff17ef8afdf77dc"
+		},
+		"doc": {
+			"_id": "resource-issue-7CB93F72-8D3B-14A4-B3B1-18D765A8A0B7",
+			"_rev": "2-93381e7e4bb2f95eeff17ef8afdf77dc",
+			"assignee": "Coby Reed",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-05-17 11:44:12",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2014-12-02 09:46:40"
+		}
+	}, {
+		"key": "resource-issue-7E415C79-1DD9-E0CF-DB04-939DB91B1673",
+		"id": "resource-issue-7E415C79-1DD9-E0CF-DB04-939DB91B1673",
+		"value": {
+			"rev": "2-9882f8b197c2cbe494fe9ec0bfa8015a"
+		},
+		"doc": {
+			"_id": "resource-issue-7E415C79-1DD9-E0CF-DB04-939DB91B1673",
+			"_rev": "2-9882f8b197c2cbe494fe9ec0bfa8015a",
+			"assignee": "Merritt C. Parsons",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-02-28 10:11:36",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2015-02-08 11:34:53"
+		}
+	}, {
+		"key": "resource-issue-7E78D634-890F-CB19-633A-33044EBD4832",
+		"id": "resource-issue-7E78D634-890F-CB19-633A-33044EBD4832",
+		"value": {
+			"rev": "3-e4ac8dab237c7e9380386e94fd8e88de"
+		},
+		"doc": {
+			"_id": "resource-issue-7E78D634-890F-CB19-633A-33044EBD4832",
+			"_rev": "3-e4ac8dab237c7e9380386e94fd8e88de",
+			"assignee": "Kenyon Ellis",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-06-14 10:45:42",
+			"customer": "Finale",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-06-29 05:50:09"
+		}
+	}, {
+		"key": "resource-issue-7F6FE274-AD5E-8CAC-15A5-60A6654FB1D2",
+		"id": "resource-issue-7F6FE274-AD5E-8CAC-15A5-60A6654FB1D2",
+		"value": {
+			"rev": "2-911824d3f6ceb14b5faa3ff32d2eb378"
+		},
+		"doc": {
+			"_id": "resource-issue-7F6FE274-AD5E-8CAC-15A5-60A6654FB1D2",
+			"_rev": "2-911824d3f6ceb14b5faa3ff32d2eb378",
+			"assignee": "Lilah King",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-11-25 02:21:29",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-03-12 12:33:53"
+		}
+	}, {
+		"key": "resource-issue-83A5F4D2-7601-E2C3-2FFC-35FE617D1A40",
+		"id": "resource-issue-83A5F4D2-7601-E2C3-2FFC-35FE617D1A40",
+		"value": {
+			"rev": "2-ee0d79dd7532e71c0fe9184679b532dc"
+		},
+		"doc": {
+			"_id": "resource-issue-83A5F4D2-7601-E2C3-2FFC-35FE617D1A40",
+			"_rev": "2-ee0d79dd7532e71c0fe9184679b532dc",
+			"assignee": "Jaime U. Donaldson",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-08 06:37:25",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2015-08-06 03:39:38"
+		}
+	}, {
+		"key": "resource-issue-8708A288-A989-7053-BFB3-792909CF3B2C",
+		"id": "resource-issue-8708A288-A989-7053-BFB3-792909CF3B2C",
+		"value": {
+			"rev": "2-9a491761ab3a30065a56c8eef1424ff8"
+		},
+		"doc": {
+			"_id": "resource-issue-8708A288-A989-7053-BFB3-792909CF3B2C",
+			"_rev": "2-9a491761ab3a30065a56c8eef1424ff8",
+			"assignee": "Jamal Z. Mooney",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-06-28 05:29:48",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "pending",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2016-06-02 08:49:28"
+		}
+	}, {
+		"key": "resource-issue-88256B30-38CD-2446-889C-8B0569995D26",
+		"id": "resource-issue-88256B30-38CD-2446-889C-8B0569995D26",
+		"value": {
+			"rev": "2-1beefe6ca4d9217cedf19d6bc1d2188a"
+		},
+		"doc": {
+			"_id": "resource-issue-88256B30-38CD-2446-889C-8B0569995D26",
+			"_rev": "2-1beefe6ca4d9217cedf19d6bc1d2188a",
+			"assignee": "Quinn D. Merrill",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-10 08:39:41",
+			"customer": "Finale",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2016-01-10 16:25:34"
+		}
+	}, {
+		"key": "resource-issue-8962E366-9B4D-34CA-3CA1-D4D666620893",
+		"id": "resource-issue-8962E366-9B4D-34CA-3CA1-D4D666620893",
+		"value": {
+			"rev": "2-f2d1059f3453367cd83732240e8574cc"
+		},
+		"doc": {
+			"_id": "resource-issue-8962E366-9B4D-34CA-3CA1-D4D666620893",
+			"_rev": "2-f2d1059f3453367cd83732240e8574cc",
+			"assignee": "Brenden Spence",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-06-28 20:11:02",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2015-08-05 03:03:21"
+		}
+	}, {
+		"key": "resource-issue-8C09CE9F-0F11-F432-73DA-FAB6F1A1D07E",
+		"id": "resource-issue-8C09CE9F-0F11-F432-73DA-FAB6F1A1D07E",
+		"value": {
+			"rev": "2-b4c99e5bfb181b1465d6c86e97205a87"
+		},
+		"doc": {
+			"_id": "resource-issue-8C09CE9F-0F11-F432-73DA-FAB6F1A1D07E",
+			"_rev": "2-b4c99e5bfb181b1465d6c86e97205a87",
+			"assignee": "Ivory Callahan",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-07-14 22:52:08",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2016-09-29 05:34:13"
+		}
+	}, {
+		"key": "resource-issue-8DCE26B6-B568-58A8-DABA-693AC5983BD6",
+		"id": "resource-issue-8DCE26B6-B568-58A8-DABA-693AC5983BD6",
+		"value": {
+			"rev": "2-e368b78e15eef7269f90e00b3a863034"
+		},
+		"doc": {
+			"_id": "resource-issue-8DCE26B6-B568-58A8-DABA-693AC5983BD6",
+			"_rev": "2-e368b78e15eef7269f90e00b3a863034",
+			"assignee": "Grady Clark",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-01-07 03:48:59",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "pending",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-09-15 16:35:56"
+		}
+	}, {
+		"key": "resource-issue-92A8A5E6-2772-9C41-9CC4-B703B332CB4E",
+		"id": "resource-issue-92A8A5E6-2772-9C41-9CC4-B703B332CB4E",
+		"value": {
+			"rev": "2-11151e4398c76ecd5304f01bee034a40"
+		},
+		"doc": {
+			"_id": "resource-issue-92A8A5E6-2772-9C41-9CC4-B703B332CB4E",
+			"_rev": "2-11151e4398c76ecd5304f01bee034a40",
+			"assignee": "Geraldine X. Dyer",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-07-21 22:51:28",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-04-17 07:52:42"
+		}
+	}, {
+		"key": "resource-issue-9389D980-50DD-F795-A7F9-B3A240671BC6",
+		"id": "resource-issue-9389D980-50DD-F795-A7F9-B3A240671BC6",
+		"value": {
+			"rev": "2-b4633f0d9041714a6e6c7deb62efc539"
+		},
+		"doc": {
+			"_id": "resource-issue-9389D980-50DD-F795-A7F9-B3A240671BC6",
+			"_rev": "2-b4633f0d9041714a6e6c7deb62efc539",
+			"assignee": "Quynn Moran",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-02-17 18:40:02",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2016-07-03 17:32:57"
+		}
+	}, {
+		"key": "resource-issue-94232E61-E83F-55E0-B51F-6638DB29297D",
+		"id": "resource-issue-94232E61-E83F-55E0-B51F-6638DB29297D",
+		"value": {
+			"rev": "2-ef58d7b407f94a1efac8d6e9071e1632"
+		},
+		"doc": {
+			"_id": "resource-issue-94232E61-E83F-55E0-B51F-6638DB29297D",
+			"_rev": "2-ef58d7b407f94a1efac8d6e9071e1632",
+			"assignee": "Joseph O. Roy",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-01-13 07:04:57",
+			"customer": "Yahoo",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2016-06-15 10:46:12"
+		}
+	}, {
+		"key": "resource-issue-96445319-FDF0-ED99-9A19-CD23ED217ECA",
+		"id": "resource-issue-96445319-FDF0-ED99-9A19-CD23ED217ECA",
+		"value": {
+			"rev": "2-d161ac1988fcfe44a57cfcf2b09d33f9"
+		},
+		"doc": {
+			"_id": "resource-issue-96445319-FDF0-ED99-9A19-CD23ED217ECA",
+			"_rev": "2-d161ac1988fcfe44a57cfcf2b09d33f9",
+			"assignee": "Shay D. Mccullough",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-08-08 13:26:15",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "pending",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-01-23 08:04:55"
+		}
+	}, {
+		"key": "resource-issue-96D2C47D-6BB2-AADB-FD97-D10BC12547B7",
+		"id": "resource-issue-96D2C47D-6BB2-AADB-FD97-D10BC12547B7",
+		"value": {
+			"rev": "2-eaaa9a14a04842f52576e9336f3ca8a2"
+		},
+		"doc": {
+			"_id": "resource-issue-96D2C47D-6BB2-AADB-FD97-D10BC12547B7",
+			"_rev": "2-eaaa9a14a04842f52576e9336f3ca8a2",
+			"assignee": "Norman Mccoy",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-11-22 11:30:56",
+			"customer": "Yahoo",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2014-12-29 06:36:38"
+		}
+	}, {
+		"key": "resource-issue-97256980-36B5-091E-43AD-208E64083F88",
+		"id": "resource-issue-97256980-36B5-091E-43AD-208E64083F88",
+		"value": {
+			"rev": "2-44353ab4932a266a326f77e247fd037d"
+		},
+		"doc": {
+			"_id": "resource-issue-97256980-36B5-091E-43AD-208E64083F88",
+			"_rev": "2-44353ab4932a266a326f77e247fd037d",
+			"assignee": "Miranda R. Swanson",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-10-24 21:11:55",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2015-08-08 18:39:58"
+		}
+	}, {
+		"key": "resource-issue-99940B84-F52B-27B6-F750-607DC00D9E20",
+		"id": "resource-issue-99940B84-F52B-27B6-F750-607DC00D9E20",
+		"value": {
+			"rev": "2-25b04c2a34a92544b0073501cec83b03"
+		},
+		"doc": {
+			"_id": "resource-issue-99940B84-F52B-27B6-F750-607DC00D9E20",
+			"_rev": "2-25b04c2a34a92544b0073501cec83b03",
+			"assignee": "Anne Pratt",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-03-21 20:33:17",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2015-09-29 02:30:28"
+		}
+	}, {
+		"key": "resource-issue-9C38F66F-2F68-C154-1B76-9A89686A7913",
+		"id": "resource-issue-9C38F66F-2F68-C154-1B76-9A89686A7913",
+		"value": {
+			"rev": "2-7d1b0a5229475c6256850ff6fdb8f5b1"
+		},
+		"doc": {
+			"_id": "resource-issue-9C38F66F-2F68-C154-1B76-9A89686A7913",
+			"_rev": "2-7d1b0a5229475c6256850ff6fdb8f5b1",
+			"assignee": "Damon Dean",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-03 18:37:38",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2015-08-29 14:42:39"
+		}
+	}, {
+		"key": "resource-issue-A46806F9-36E9-2CB3-608B-C587422B5719",
+		"id": "resource-issue-A46806F9-36E9-2CB3-608B-C587422B5719",
+		"value": {
+			"rev": "2-a775fbfe7d23fa9b9b8a91b91b1acc97"
+		},
+		"doc": {
+			"_id": "resource-issue-A46806F9-36E9-2CB3-608B-C587422B5719",
+			"_rev": "2-a775fbfe7d23fa9b9b8a91b91b1acc97",
+			"assignee": "Buffy V. Potter",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-11-07 12:38:43",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2015-07-30 14:40:53"
+		}
+	}, {
+		"key": "resource-issue-AA902AA0-7439-FA1B-D8AA-B3B589665D68",
+		"id": "resource-issue-AA902AA0-7439-FA1B-D8AA-B3B589665D68",
+		"value": {
+			"rev": "2-4c131182dd90a18f7e6cb26418a61cf5"
+		},
+		"doc": {
+			"_id": "resource-issue-AA902AA0-7439-FA1B-D8AA-B3B589665D68",
+			"_rev": "2-4c131182dd90a18f7e6cb26418a61cf5",
+			"assignee": "Sebastian Z. Sawyer",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-03-05 04:30:14",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "pending",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-09-01 18:19:07"
+		}
+	}, {
+		"key": "resource-issue-AA99E30F-B001-8221-D1CF-698BD6ACCB0E",
+		"id": "resource-issue-AA99E30F-B001-8221-D1CF-698BD6ACCB0E",
+		"value": {
+			"rev": "2-ccdec54ea23b091b0c7f30f449376303"
+		},
+		"doc": {
+			"_id": "resource-issue-AA99E30F-B001-8221-D1CF-698BD6ACCB0E",
+			"_rev": "2-ccdec54ea23b091b0c7f30f449376303",
+			"assignee": "Xantha Johnston",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-07-17 00:30:23",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2014-11-04 18:33:15"
+		}
+	}, {
+		"key": "resource-issue-AE220690-2F1A-BB05-835D-5125D9F0D8E7",
+		"id": "resource-issue-AE220690-2F1A-BB05-835D-5125D9F0D8E7",
+		"value": {
+			"rev": "2-a1776cc6ea8782237d58e11ac89df03b"
+		},
+		"doc": {
+			"_id": "resource-issue-AE220690-2F1A-BB05-835D-5125D9F0D8E7",
+			"_rev": "2-a1776cc6ea8782237d58e11ac89df03b",
+			"assignee": "Nayda Logan",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-03-20 11:21:02",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2015-02-13 14:50:55"
+		}
+	}, {
+		"key": "resource-issue-AE78CF4C-D3ED-3DD6-5CC8-4375C607D87D",
+		"id": "resource-issue-AE78CF4C-D3ED-3DD6-5CC8-4375C607D87D",
+		"value": {
+			"rev": "2-c8ac9683bda210124385cc93c63d38a3"
+		},
+		"doc": {
+			"_id": "resource-issue-AE78CF4C-D3ED-3DD6-5CC8-4375C607D87D",
+			"_rev": "2-c8ac9683bda210124385cc93c63d38a3",
+			"assignee": "Willow T. Rollins",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-08-20 12:49:21",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2015-06-09 10:53:28"
+		}
+	}, {
+		"key": "resource-issue-AEC87454-1958-B97B-170D-6C41DA0EA372",
+		"id": "resource-issue-AEC87454-1958-B97B-170D-6C41DA0EA372",
+		"value": {
+			"rev": "2-93caebb9f5708c1cafc4c84cd07f4f10"
+		},
+		"doc": {
+			"_id": "resource-issue-AEC87454-1958-B97B-170D-6C41DA0EA372",
+			"_rev": "2-93caebb9f5708c1cafc4c84cd07f4f10",
+			"assignee": "Christine Flowers",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-12-06 12:14:25",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2016-03-26 16:03:59"
+		}
+	}, {
+		"key": "resource-issue-AF292442-6250-FC65-DB4C-876794C54BFE",
+		"id": "resource-issue-AF292442-6250-FC65-DB4C-876794C54BFE",
+		"value": {
+			"rev": "2-ec7af91d9f226b00ad0a9fda37193b5c"
+		},
+		"doc": {
+			"_id": "resource-issue-AF292442-6250-FC65-DB4C-876794C54BFE",
+			"_rev": "2-ec7af91d9f226b00ad0a9fda37193b5c",
+			"assignee": "William Walter",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-07 10:34:16",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2016-09-25 03:02:45"
+		}
+	}, {
+		"key": "resource-issue-BB98080C-C529-7FFE-4315-55B2C1125565",
+		"id": "resource-issue-BB98080C-C529-7FFE-4315-55B2C1125565",
+		"value": {
+			"rev": "2-902a394bd6e9359a4ece68b0400d0fbd"
+		},
+		"doc": {
+			"_id": "resource-issue-BB98080C-C529-7FFE-4315-55B2C1125565",
+			"_rev": "2-902a394bd6e9359a4ece68b0400d0fbd",
+			"assignee": "Uta U. Ellison",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-02-05 06:33:20",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2016-09-17 23:09:10"
+		}
+	}, {
+		"key": "resource-issue-BCEDA18F-F417-8B0D-8441-72ED5446DB8E",
+		"id": "resource-issue-BCEDA18F-F417-8B0D-8441-72ED5446DB8E",
+		"value": {
+			"rev": "2-113d0ce924b7e82c71f3b91f2cb786d4"
+		},
+		"doc": {
+			"_id": "resource-issue-BCEDA18F-F417-8B0D-8441-72ED5446DB8E",
+			"_rev": "2-113d0ce924b7e82c71f3b91f2cb786d4",
+			"assignee": "Justine Vaughn",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-07-03 01:47:00",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-08-11 15:32:56"
+		}
+	}, {
+		"key": "resource-issue-BD8D05F7-1D65-20F8-27FA-5EECC315C4E8",
+		"id": "resource-issue-BD8D05F7-1D65-20F8-27FA-5EECC315C4E8",
+		"value": {
+			"rev": "2-c121a2129a9a3beab34cb63e7dcef5e8"
+		},
+		"doc": {
+			"_id": "resource-issue-BD8D05F7-1D65-20F8-27FA-5EECC315C4E8",
+			"_rev": "2-c121a2129a9a3beab34cb63e7dcef5e8",
+			"assignee": "Matthew Cantrell",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-16 07:08:56",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2016-06-06 17:48:14"
+		}
+	}, {
+		"key": "resource-issue-BE8CBE65-2AB7-DE02-62C8-C428F502108A",
+		"id": "resource-issue-BE8CBE65-2AB7-DE02-62C8-C428F502108A",
+		"value": {
+			"rev": "2-bb7bf52dc384e6ca2b2a90c877062053"
+		},
+		"doc": {
+			"_id": "resource-issue-BE8CBE65-2AB7-DE02-62C8-C428F502108A",
+			"_rev": "2-bb7bf52dc384e6ca2b2a90c877062053",
+			"assignee": "Fredericka Ortiz",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-07-28 23:18:28",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2015-01-22 03:16:23"
+		}
+	}, {
+		"key": "resource-issue-C4EFFCA0-F38C-B9FA-42DF-4F57C1A67BCE",
+		"id": "resource-issue-C4EFFCA0-F38C-B9FA-42DF-4F57C1A67BCE",
+		"value": {
+			"rev": "2-e46ec5a2e34245e42651a7c26a5708fd"
+		},
+		"doc": {
+			"_id": "resource-issue-C4EFFCA0-F38C-B9FA-42DF-4F57C1A67BCE",
+			"_rev": "2-e46ec5a2e34245e42651a7c26a5708fd",
+			"assignee": "Madeson Trujillo",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-06-19 02:54:38",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-05-24 20:34:55"
+		}
+	}, {
+		"key": "resource-issue-C6CA7FE9-9B3F-5734-48F3-A90ED64E9D64",
+		"id": "resource-issue-C6CA7FE9-9B3F-5734-48F3-A90ED64E9D64",
+		"value": {
+			"rev": "2-cc3ccd8be7574e54d50c44ab8c44357d"
+		},
+		"doc": {
+			"_id": "resource-issue-C6CA7FE9-9B3F-5734-48F3-A90ED64E9D64",
+			"_rev": "2-cc3ccd8be7574e54d50c44ab8c44357d",
+			"assignee": "Illiana N. Duke",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-06-14 09:14:27",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2016-05-17 05:00:33"
+		}
+	}, {
+		"key": "resource-issue-C77898AD-60F6-2D3C-EA94-6E516EB27E33",
+		"id": "resource-issue-C77898AD-60F6-2D3C-EA94-6E516EB27E33",
+		"value": {
+			"rev": "2-fda49fc061a3a518934f37197bb1696b"
+		},
+		"doc": {
+			"_id": "resource-issue-C77898AD-60F6-2D3C-EA94-6E516EB27E33",
+			"_rev": "2-fda49fc061a3a518934f37197bb1696b",
+			"assignee": "Alexander Mcgowan",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-02-24 19:01:28",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2015-08-27 15:50:10"
+		}
+	}, {
+		"key": "resource-issue-C93F67C1-A4B1-DABD-FE8D-4C1A77920509",
+		"id": "resource-issue-C93F67C1-A4B1-DABD-FE8D-4C1A77920509",
+		"value": {
+			"rev": "2-5892c1b84ae2238d9e69b7a19caa7ac8"
+		},
+		"doc": {
+			"_id": "resource-issue-C93F67C1-A4B1-DABD-FE8D-4C1A77920509",
+			"_rev": "2-5892c1b84ae2238d9e69b7a19caa7ac8",
+			"assignee": "Laith Robles",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-06-15 22:59:17",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2015-01-24 15:44:31"
+		}
+	}, {
+		"key": "resource-issue-CB151D74-2543-0D81-D58A-56671E0E9CFD",
+		"id": "resource-issue-CB151D74-2543-0D81-D58A-56671E0E9CFD",
+		"value": {
+			"rev": "2-1b92deeb495bfd17608895e5448c5ca6"
+		},
+		"doc": {
+			"_id": "resource-issue-CB151D74-2543-0D81-D58A-56671E0E9CFD",
+			"_rev": "2-1b92deeb495bfd17608895e5448c5ca6",
+			"assignee": "Joel Vance",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-27 13:32:04",
+			"customer": "Lycos",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2015-10-30 16:10:13"
+		}
+	}, {
+		"key": "resource-issue-CBC3936C-4DD5-3D77-BFB6-F520BF7F7D43",
+		"id": "resource-issue-CBC3936C-4DD5-3D77-BFB6-F520BF7F7D43",
+		"value": {
+			"rev": "2-9034a6643eba316bd245e7d8d1987efd"
+		},
+		"doc": {
+			"_id": "resource-issue-CBC3936C-4DD5-3D77-BFB6-F520BF7F7D43",
+			"_rev": "2-9034a6643eba316bd245e7d8d1987efd",
+			"assignee": "Kenyon L. Head",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-01-10 21:47:56",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Equipment Fault",
+			"type": "Software",
+			"updated_at": "2016-03-19 09:45:02"
+		}
+	}, {
+		"key": "resource-issue-CD51CF9A-1678-D968-BE4B-41011076C050",
+		"id": "resource-issue-CD51CF9A-1678-D968-BE4B-41011076C050",
+		"value": {
+			"rev": "2-dbf31d312d1a13822d75b28a01f5607b"
+		},
+		"doc": {
+			"_id": "resource-issue-CD51CF9A-1678-D968-BE4B-41011076C050",
+			"_rev": "2-dbf31d312d1a13822d75b28a01f5607b",
+			"assignee": "Arden A. Pena",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-10-30 15:17:58",
+			"customer": "Google",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2014-12-15 20:06:42"
+		}
+	}, {
+		"key": "resource-issue-CE02C413-615F-8715-D8BF-C2751CF7B122",
+		"id": "resource-issue-CE02C413-615F-8715-D8BF-C2751CF7B122",
+		"value": {
+			"rev": "2-8aaef5eea479110d1c7c82161fbcd02e"
+		},
+		"doc": {
+			"_id": "resource-issue-CE02C413-615F-8715-D8BF-C2751CF7B122",
+			"_rev": "2-8aaef5eea479110d1c7c82161fbcd02e",
+			"assignee": "Vivian F. Hall",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-02-08 14:10:30",
+			"customer": "Cakewalk",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2014-12-07 03:57:52"
+		}
+	}, {
+		"key": "resource-issue-D5E26ED1-C063-EBB8-016D-6D5634F8FD9A",
+		"id": "resource-issue-D5E26ED1-C063-EBB8-016D-6D5634F8FD9A",
+		"value": {
+			"rev": "2-6b34344f3579c40188bda15174ed39d2"
+		},
+		"doc": {
+			"_id": "resource-issue-D5E26ED1-C063-EBB8-016D-6D5634F8FD9A",
+			"_rev": "2-6b34344f3579c40188bda15174ed39d2",
+			"assignee": "Naida Reynolds",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-12-27 04:35:59",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2015-09-02 20:19:39"
+		}
+	}, {
+		"key": "resource-issue-D7816A16-70D8-D760-0379-11DE258559C3",
+		"id": "resource-issue-D7816A16-70D8-D760-0379-11DE258559C3",
+		"value": {
+			"rev": "2-e7b987a1c2d123deac08fabba7da62ee"
+		},
+		"doc": {
+			"_id": "resource-issue-D7816A16-70D8-D760-0379-11DE258559C3",
+			"_rev": "2-e7b987a1c2d123deac08fabba7da62ee",
+			"assignee": "Piper Guthrie",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-02-12 05:05:26",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-12-27 01:48:22"
+		}
+	}, {
+		"key": "resource-issue-DB0E43E2-F63A-1D89-1623-4E3796FDBBF4",
+		"id": "resource-issue-DB0E43E2-F63A-1D89-1623-4E3796FDBBF4",
+		"value": {
+			"rev": "2-70e9b0e44a232fd0b9502ed64a544293"
+		},
+		"doc": {
+			"_id": "resource-issue-DB0E43E2-F63A-1D89-1623-4E3796FDBBF4",
+			"_rev": "2-70e9b0e44a232fd0b9502ed64a544293",
+			"assignee": "Deacon V. Odom",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-10-30 11:31:24",
+			"customer": "Finale",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2015-12-07 19:06:39"
+		}
+	}, {
+		"key": "resource-issue-DBD6441E-DD4F-EE24-05F5-9FD8DBC22026",
+		"id": "resource-issue-DBD6441E-DD4F-EE24-05F5-9FD8DBC22026",
+		"value": {
+			"rev": "2-390c22441f130bc5efbf631ac66996b4"
+		},
+		"doc": {
+			"_id": "resource-issue-DBD6441E-DD4F-EE24-05F5-9FD8DBC22026",
+			"_rev": "2-390c22441f130bc5efbf631ac66996b4",
+			"assignee": "Chandler Ellison",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-03-06 11:46:51",
+			"customer": "Adobe",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "closed",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-12-16 18:42:52"
+		}
+	}, {
+		"key": "resource-issue-DD52537E-5B29-97C4-1B99-25F66AB15BB3",
+		"id": "resource-issue-DD52537E-5B29-97C4-1B99-25F66AB15BB3",
+		"value": {
+			"rev": "2-1c61c5670e9a112245d4c56a4be65b73"
+		},
+		"doc": {
+			"_id": "resource-issue-DD52537E-5B29-97C4-1B99-25F66AB15BB3",
+			"_rev": "2-1c61c5670e9a112245d4c56a4be65b73",
+			"assignee": "Felix S. Valdez",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-12-31 23:12:03",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Software",
+			"updated_at": "2014-11-07 05:12:14"
+		}
+	}, {
+		"key": "resource-issue-DF35C326-7773-C358-EAD3-BEE7739B7D84",
+		"id": "resource-issue-DF35C326-7773-C358-EAD3-BEE7739B7D84",
+		"value": {
+			"rev": "2-513caa089d05ab9013851d7ee8f503df"
+		},
+		"doc": {
+			"_id": "resource-issue-DF35C326-7773-C358-EAD3-BEE7739B7D84",
+			"_rev": "2-513caa089d05ab9013851d7ee8f503df",
+			"assignee": "Ivor S. Klein",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-10-27 08:29:45",
+			"customer": "Google",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2016-06-18 08:52:00"
+		}
+	}, {
+		"key": "resource-issue-DF6AECEB-4BB5-22E8-2761-6E72DD56F2A2",
+		"id": "resource-issue-DF6AECEB-4BB5-22E8-2761-6E72DD56F2A2",
+		"value": {
+			"rev": "2-c317e72581e1c5b2dccf4a4c77850448"
+		},
+		"doc": {
+			"_id": "resource-issue-DF6AECEB-4BB5-22E8-2761-6E72DD56F2A2",
+			"_rev": "2-c317e72581e1c5b2dccf4a4c77850448",
+			"assignee": "Maite Henson",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien,",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-11-01 20:59:10",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "pending",
+			"title": "Equipment Fault",
+			"type": "Other",
+			"updated_at": "2016-09-01 01:08:10"
+		}
+	}, {
+		"key": "resource-issue-DF99817E-3C57-D547-51CB-8ED16E0211EA",
+		"id": "resource-issue-DF99817E-3C57-D547-51CB-8ED16E0211EA",
+		"value": {
+			"rev": "2-bb3b150def135ba0596c083daf6c612a"
+		},
+		"doc": {
+			"_id": "resource-issue-DF99817E-3C57-D547-51CB-8ED16E0211EA",
+			"_rev": "2-bb3b150def135ba0596c083daf6c612a",
+			"assignee": "Quinn Q. Kirk",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-11-27 16:31:27",
+			"customer": "Altavista",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "pending",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2016-05-14 15:39:58"
+		}
+	}, {
+		"key": "resource-issue-E0DC16FE-8E15-5A21-7554-D9969D5F0814",
+		"id": "resource-issue-E0DC16FE-8E15-5A21-7554-D9969D5F0814",
+		"value": {
+			"rev": "2-3471ca6454985affbf8a188e9f0602c7"
+		},
+		"doc": {
+			"_id": "resource-issue-E0DC16FE-8E15-5A21-7554-D9969D5F0814",
+			"_rev": "2-3471ca6454985affbf8a188e9f0602c7",
+			"assignee": "Shafira Barry",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-09-09 12:55:51",
+			"customer": "Microsoft",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-08-23 12:18:44"
+		}
+	}, {
+		"key": "resource-issue-E2C93C88-8305-3DEC-C933-0517E2AC6817",
+		"id": "resource-issue-E2C93C88-8305-3DEC-C933-0517E2AC6817",
+		"value": {
+			"rev": "2-c12617fd5c0a8c49ff763356dbda5fd7"
+		},
+		"doc": {
+			"_id": "resource-issue-E2C93C88-8305-3DEC-C933-0517E2AC6817",
+			"_rev": "2-c12617fd5c0a8c49ff763356dbda5fd7",
+			"assignee": "Kristen Q. Sloan",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-08-10 15:12:03",
+			"customer": "Yahoo",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2016-02-16 21:18:01"
+		}
+	}, {
+		"key": "resource-issue-E871FA75-27DB-09EF-C666-9DC75D146A04",
+		"id": "resource-issue-E871FA75-27DB-09EF-C666-9DC75D146A04",
+		"value": {
+			"rev": "2-e413d483911c55d3ac5d69d130fc91ef"
+		},
+		"doc": {
+			"_id": "resource-issue-E871FA75-27DB-09EF-C666-9DC75D146A04",
+			"_rev": "2-e413d483911c55d3ac5d69d130fc91ef",
+			"assignee": "Holly K. Crane",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-11-27 20:14:18",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "pending",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-09-20 23:44:30"
+		}
+	}, {
+		"key": "resource-issue-EA6C699A-60A1-13DA-59B9-91F77A5B5D3A",
+		"id": "resource-issue-EA6C699A-60A1-13DA-59B9-91F77A5B5D3A",
+		"value": {
+			"rev": "2-41264eecd750fbfd5669b73d8c71b833"
+		},
+		"doc": {
+			"_id": "resource-issue-EA6C699A-60A1-13DA-59B9-91F77A5B5D3A",
+			"_rev": "2-41264eecd750fbfd5669b73d8c71b833",
+			"assignee": "Iona Mcgee",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-09-24 15:07:09",
+			"customer": "Google",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-05-10 09:41:28"
+		}
+	}, {
+		"key": "resource-issue-EA95A42B-AF38-94BE-C040-7E0C8E2B78E2",
+		"id": "resource-issue-EA95A42B-AF38-94BE-C040-7E0C8E2B78E2",
+		"value": {
+			"rev": "2-72936ffeb6105cb378d7f101b9d77149"
+		},
+		"doc": {
+			"_id": "resource-issue-EA95A42B-AF38-94BE-C040-7E0C8E2B78E2",
+			"_rev": "2-72936ffeb6105cb378d7f101b9d77149",
+			"assignee": "Brynne P. Moss",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-04-22 11:45:22",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "accepted",
+			"title": "High Voltage Reading",
+			"type": "Hardware",
+			"updated_at": "2015-03-25 20:13:23"
+		}
+	}, {
+		"key": "resource-issue-EDFEDEFA-8B5E-F8B5-EACE-95950FFD32F4",
+		"id": "resource-issue-EDFEDEFA-8B5E-F8B5-EACE-95950FFD32F4",
+		"value": {
+			"rev": "2-ff42131badb750ad40cca20a2e1809bd"
+		},
+		"doc": {
+			"_id": "resource-issue-EDFEDEFA-8B5E-F8B5-EACE-95950FFD32F4",
+			"_rev": "2-ff42131badb750ad40cca20a2e1809bd",
+			"assignee": "Illiana Johnston",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-06-16 03:49:49",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Other",
+			"updated_at": "2015-10-17 01:04:40"
+		}
+	}, {
+		"key": "resource-issue-EE28D356-AB91-60A6-F2E1-5DE831D11A96",
+		"id": "resource-issue-EE28D356-AB91-60A6-F2E1-5DE831D11A96",
+		"value": {
+			"rev": "2-70d578f078c0d7c4fdec645478b815a4"
+		},
+		"doc": {
+			"_id": "resource-issue-EE28D356-AB91-60A6-F2E1-5DE831D11A96",
+			"_rev": "2-70d578f078c0d7c4fdec645478b815a4",
+			"assignee": "Nathan Barnett",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-02-16 08:23:18",
+			"customer": "Apple Systems",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "critcal",
+			"status": "accepted",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2016-03-20 17:20:54"
+		}
+	}, {
+		"key": "resource-issue-F39E8A85-2887-C944-C826-4745B29F7DF7",
+		"id": "resource-issue-F39E8A85-2887-C944-C826-4745B29F7DF7",
+		"value": {
+			"rev": "2-4f8f9c4dfacea03bd77753b48d756419"
+		},
+		"doc": {
+			"_id": "resource-issue-F39E8A85-2887-C944-C826-4745B29F7DF7",
+			"_rev": "2-4f8f9c4dfacea03bd77753b48d756419",
+			"assignee": "Shafira Z. Jacobson",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna.",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-02-02 04:27:17",
+			"customer": "Finale",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Hardware",
+			"updated_at": "2014-12-20 20:23:16"
+		}
+	}, {
+		"key": "resource-issue-F3D40E63-6995-B57C-38C1-692B458747CC",
+		"id": "resource-issue-F3D40E63-6995-B57C-38C1-692B458747CC",
+		"value": {
+			"rev": "2-1cec4175be9c8243494860df04d05b72"
+		},
+		"doc": {
+			"_id": "resource-issue-F3D40E63-6995-B57C-38C1-692B458747CC",
+			"_rev": "2-1cec4175be9c8243494860df04d05b72",
+			"assignee": "Bert T. Johnston",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2014-11-12 18:35:14",
+			"customer": "Borland",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "closed",
+			"title": "Equipment Fault",
+			"type": "Hardware",
+			"updated_at": "2014-11-10 05:33:34"
+		}
+	}, {
+		"key": "resource-issue-FD864D26-0597-6A46-5334-D944BBD265CB",
+		"id": "resource-issue-FD864D26-0597-6A46-5334-D944BBD265CB",
+		"value": {
+			"rev": "2-0dc54c6d001b687d3f256dd873dc6e7e"
+		},
+		"doc": {
+			"_id": "resource-issue-FD864D26-0597-6A46-5334-D944BBD265CB",
+			"_rev": "2-0dc54c6d001b687d3f256dd873dc6e7e",
+			"assignee": "Violet Benjamin",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2016-07-08 13:41:48",
+			"customer": "Macromedia",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "urgent",
+			"status": "closed",
+			"title": "High Voltage Reading",
+			"type": "Other",
+			"updated_at": "2015-08-03 12:29:48"
+		}
+	}, {
+		"key": "resource-issue-FE0D4E88-66E0-C66F-91A2-C3D19B212807",
+		"id": "resource-issue-FE0D4E88-66E0-C66F-91A2-C3D19B212807",
+		"value": {
+			"rev": "2-7b9c3ab029559c5988ed3f30939cf9ca"
+		},
+		"doc": {
+			"_id": "resource-issue-FE0D4E88-66E0-C66F-91A2-C3D19B212807",
+			"_rev": "2-7b9c3ab029559c5988ed3f30939cf9ca",
+			"assignee": "Garth R. Reyes",
+			"body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada",
+			"channels": [
+				"role-user"
+			],
+			"created_at": "2015-01-20 04:33:23",
+			"customer": "Chami",
+			"dataType": "entity",
+			"parent": [
+				"folder-resources"
+			],
+			"severity": "normal",
+			"status": "open",
+			"title": "Imporper Loading",
+			"type": "Software",
+			"updated_at": "2015-03-13 23:36:43"
+		}
+	}, {
+		"key": "sync-admin",
+		"id": "sync-admin",
+		"value": {
+			"rev": "1-f98796c5ce8562171179f8b1ef373fcc"
+		},
+		"doc": {
+			"_id": "sync-admin",
+			"_rev": "1-f98796c5ce8562171179f8b1ef373fcc",
+			"channels": [
+				"user-admin",
+				"entity_admin"
+			],
+			"data": [],
+			"data_subscribe_complete": [],
+			"data_unsubscribe": [],
+			"data_unsubscribe_complete": [],
+			"parent": [
+				"user-admin"
+			],
+			"resources": [],
+			"resources_subscribe_complete": [],
+			"resources_unsubscribe": [],
+			"resources_unsubscribe_complete": [],
+			"type": "sync"
+		}
+	}, {
+		"key": "sync-dev",
+		"id": "sync-dev",
+		"value": {
+			"rev": "1-52c729b0b6558dd6a852b5ca322d81af"
+		},
+		"doc": {
+			"_id": "sync-dev",
+			"_rev": "1-52c729b0b6558dd6a852b5ca322d81af",
+			"channels": [
+				"user-dev",
+				"entity_dev"
+			],
+			"data": [],
+			"data_subscribe_complete": [],
+			"data_unsubscribe": [],
+			"data_unsubscribe_complete": [],
+			"parent": [
+				"user-dev"
+			],
+			"resources": [],
+			"resources_subscribe_complete": [],
+			"resources_unsubscribe": [],
+			"resources_unsubscribe_complete": [],
+			"type": "sync"
+		}
+	}, {
+		"key": "sync-user1",
+		"id": "sync-user1",
+		"value": {
+			"rev": "1-98ccc80c8bd4991b5f6b2147618906aa"
+		},
+		"doc": {
+			"_id": "sync-user1",
+			"_rev": "1-98ccc80c8bd4991b5f6b2147618906aa",
+			"channels": [
+				"user-user1",
+				"entity_user1"
+			],
+			"data": [],
+			"data_subscribe_complete": [],
+			"data_unsubscribe": [],
+			"data_unsubscribe_complete": [],
+			"parent": [
+				"user-user1"
+			],
+			"resources": [],
+			"resources_subscribe_complete": [],
+			"resources_unsubscribe": [],
+			"resources_unsubscribe_complete": [],
+			"type": "sync"
+		}
+	}, {
+		"key": "user-admin",
+		"id": "user-admin",
+		"value": {
+			"rev": "1-3ac1898166e943869ce7f23c7fcdfa5b"
+		},
+		"doc": {
+			"_id": "user-admin",
+			"_rev": "1-3ac1898166e943869ce7f23c7fcdfa5b",
+			"apps": [],
+			"channels": [
+				"user-admin",
+				"entity_admin"
+			],
+			"displayName": "admin",
+			"jobTitle": "Developer",
+			"location": "San Ramon, CA",
+			"name": "admin",
+			"parent": [
+				"folder-users"
+			],
+			"password": "password",
+			"type": "user",
+			"userLoginId": "",
+			"username": "admin"
+		}
+	}, {
+		"key": "user-dev",
+		"id": "user-dev",
+		"value": {
+			"rev": "1-1c91092371ca8bc936a2b5d1ba46274a"
+		},
+		"doc": {
+			"_id": "user-dev",
+			"_rev": "1-1c91092371ca8bc936a2b5d1ba46274a",
+			"apps": [],
+			"channels": [
+				"user-dev",
+				"entity_dev"
+			],
+			"displayName": "dev",
+			"jobTitle": "Developer",
+			"location": "San Ramon, CA",
+			"name": "dev",
+			"parent": [
+				"folder-users"
+			],
+			"password": "password",
+			"type": "user",
+			"userLoginId": "",
+			"username": "dev"
+		}
+	}, {
+		"key": "user-user1",
+		"id": "user-user1",
+		"value": {
+			"rev": "1-29fa4f21de29830aaad70dcc7d151e44"
+		},
+		"doc": {
+			"_id": "user-user1",
+			"_rev": "1-29fa4f21de29830aaad70dcc7d151e44",
+			"apps": [],
+			"channels": [
+				"user-user1",
+				"entity_user1"
+			],
+			"displayName": "user1",
+			"jobTitle": "Developer",
+			"location": "San Ramon, CA",
+			"name": "user1",
+			"parent": [
+				"folder-users"
+			],
+			"password": "password",
+			"type": "user",
+			"userLoginId": "",
+			"username": "user1"
+		}
+	}],
+	"total_rows": 117,
+	"update_seq": 231
+}

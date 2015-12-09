@@ -1,0 +1,10 @@
+*.iml
+*.idea
+
+**/target
+.gradle/
+node_modules/
+__extra_code/
+__unused/
+bin-temp/
+bin-release/
