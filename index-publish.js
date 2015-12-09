@@ -4,7 +4,7 @@
 
 var Logging = require("./lib/logging.js");
 var logger = Logging.general.valueOf();
-var program = require('commander');
+var program = require('commander-lm');
 var UserState = require("./lib/UserState.js");
 var UAAConfig = require("./lib/cf-api/UAA-Auth.js").UAAConfig.valueOf();
 var PM_Nano = require("./lib/pm-nano/PM-Nano.js");

@@ -3,7 +3,7 @@
 'use strict';
 
 var Logging = require("./lib/logging.js");
-var program = require('commander');
+var program = require('commander-lm');
 var UserState = require("./lib/UserState.js");
 var UAA = require("./lib/cf-api/UAA-Auth.js").UAA.valueOf();
 var UAAConfig = require("./lib/cf-api/UAA-Auth.js").UAAConfig.valueOf();

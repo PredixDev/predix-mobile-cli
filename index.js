@@ -2,11 +2,11 @@
 
 'use strict';
 
-var program = require('commander');
+var program = require('commander-lm');
 
 // declare programs:
 program
-  .version('1.1.2')
+  .version('1.1.2a')
 
   // pending:
   // .command('target', 'Set or view the targeted PM server')
@@ -31,3 +31,19 @@ program
   .command('routes', 'List all current command-routes.')
   
   .parse(process.argv);
+
+
+function StaticCompilationReferences() {
+    require('./index-api.js');
+    require('./index-auth.js');
+    require('./index-import.js');
+    require('./index-publish.js');
+    require('./index-define.js');
+    require('./index-grant.js');
+    require('./index-revoke.js');
+    require('./index-oauth-token.js');
+    require('./index-add-route.js');
+    require('./index-remove-route.js');
+    require('./index-routes.js');
+}
+

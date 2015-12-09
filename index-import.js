@@ -1,4 +1,4 @@
-var program = require('commander');
+var program = require('commander-lm');
 require('./lib/pm-utils/Strings');
 
 function stringStartsWith(string, prefix) {

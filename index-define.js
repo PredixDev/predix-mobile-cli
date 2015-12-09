@@ -3,7 +3,7 @@
 'use strict';
 
 var Logging = require("./lib/logging.js");
-var program = require('commander');
+var program = require('commander-lm');
 var UserState = require("./lib/UserState.js");
 var UAA = require("./lib/cf-api/UAA-Auth.js").UAA.valueOf();
 var UAAConfig = require("./lib/cf-api/UAA-Auth.js").UAAConfig.valueOf();
@@ -21,6 +21,7 @@ var AdjustAppPermissionsCommand = require("./lib/pm-commands/AdjustAppPermission
 
 // parse input:
 program
+    .version('1.0.1a')
     .usage('[app-file] [options]')
     .option('--debug', 'Set logging level to debug (more traces than "verbose")')
     .option('--verbose', 'Set logging level to verbose.')

@@ -4,7 +4,7 @@
 
 var Logging = require("./lib/logging.js");
 var logger = Logging.general.valueOf();
-var program = require('commander');
+var program = require('commander-lm');
 var UserState = require("./lib/UserState.js");
 var URLRegex = require('./lib/url-regex/url-regex.js');
 var PM_API = new (require("./lib/pm-api/PM-API.js"))();

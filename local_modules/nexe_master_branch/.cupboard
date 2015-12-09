@@ -1,0 +1,4 @@
+[commands]
+proj = subl .
+.DS_Store
+

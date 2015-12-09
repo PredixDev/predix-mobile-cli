@@ -2,7 +2,7 @@
 
 'use strict';
 
-var nexe = require('nexe');
+var nexe = require('nexe-lm');
 var os = require('os');
 
 var platform = os.platform();
@@ -17,9 +17,13 @@ nexe.compile({
     output: outputPath,
     nodeVersion: '0.12.8',
     nodeTempDir: 'bin-temp',
+    ignoreFlags: true,
     flags: true,
     python: "python",
-    framework: 'nodejs'
+    framework: 'nodejs',
+    nodeConfigureArgs: [],
+    nodeMakeArgs: [],
+    resourceFiles: ["./package.json"]
 }, function(err, result) {
 	if (err) {
 		console.log(err);

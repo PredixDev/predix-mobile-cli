@@ -1,0 +1,51 @@
+{
+  "author": "Jared Allard <jaredallard@outlook.com>",
+  "name": "nexe-lm",
+  "description": "create single executables out of your [node/io].js applications",
+  "license": "MIT",
+  "version": "0.4.20",
+  "contributors": [
+    {
+      "name": "Criag Condon",
+      "email": "craig.j.condon@gmail.com",
+      "url": "http://crcn.io/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredallard/nexe.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "async": "1.2.1",
+    "browser-resolve": "^1.10.0",
+    "builtins": "1.0.1",
+    "colors": "^1.0.3",
+    "glob": "^5.0.5",
+    "mkdirp": "^0.5.0",
+    "module-deps": "^3.6.4",
+    "ncp": "^2.0.0",
+    "outcome": "0.0.18",
+    "progress": "^1.1.8",
+    "request": "^2.53.0",
+    "sprintf": "~0.1.5",
+    "step": "0.0.x",
+    "tar.gz": "0.1.1",
+    "through": "^2.3.6",
+    "yargs": "^3.2.1"
+  },
+  "nexe": {
+    "input": "./bin/nexe",
+    "output": "nexe^$",
+    "temp": "src",
+    "runtime": {
+      "framework": "iojs",
+      "version": "2.3.1",
+      "ignoreFlags": true
+    }
+  },
+  "preferGlobal": true,
+  "bin": {
+    "nexe": "./bin/nexe"
+  }
+}
