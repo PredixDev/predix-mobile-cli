@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var program = require('commander-lm');
 require('./lib/pm-utils/Strings');
 
@@ -25,8 +27,8 @@ var nanoImport = function(dataToImport){
 
 var importData = function (dataToImport) {
   var data = require(dataToImport);
-  console.log('Found ' + data.rows.length + ' records to import.');
-  var toImport = data.rows.filter(function(eachDoc){return eachDoc.doc.dataType && eachDoc.doc.dataType.startsWith('entity');}).map(function(eachDoc){ var transformed = eachDoc.doc; delete transformed['_rev']; return transformed;});
+  var toImport =  Array.isArray(data) ? data : data.rows.filter(function(eachDoc){return eachDoc.doc.dataType && eachDoc.doc.dataType.startsWith('entity');}).map(function(eachDoc){ var transformed = eachDoc.doc; delete transformed['_rev']; return transformed;});
+  console.log('Found ' + toImport.length + ' records to import.');
   nanoImport(toImport);
 };
 
@@ -46,6 +48,6 @@ program
     .option('--verbose', 'Set logging level to verbose.')
     .parse(process.argv);
 
-var initialData = typeof program.args[1] == "undefined" ? "./lib/data.json": program.args[1];
+var initialData = typeof program.args[0] == "undefined" ? "./lib/data.json": program.args[0];
 console.log('importing using data [' + initialData + ']');
 module.exports().initializeDB(initialData);
