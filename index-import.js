@@ -1,17 +1,13 @@
 #!/usr/bin/env node
 
-var program = require('commander-lm');
 require('./lib/pm-utils/Strings');
+var program = require('commander-lm');
+var repository;
 
-function stringStartsWith(string, prefix) {
-  return string.slice(0, prefix.length) == prefix;
-};
+function getRepository() {
+  if(repository) return repository;
 
-module.exports = function() {
-
-var nanoImport = function(dataToImport){
   var UAAConfig = require("./lib/cf-api/UAA-Auth.js").UAAConfig.valueOf();
-  var PM_API = new (require("./lib/pm-api/PM-API.js"))();
   var PM_Nano = require("./lib/pm-nano/PM-Nano.js");
   var UserState = require("./lib/UserState.js");
   var uaaConfig = new UAAConfig(UserState);
@@ -20,34 +16,70 @@ var nanoImport = function(dataToImport){
   var url = require('url');
   var server_url = url.resolve(UserState.target.api, admin_data_endpoint);
   var pmNano = new PM_Nano(server_url, 'pm', authHeaders);
-  var repository = pmNano.GetNanoRepository();
+  repository = pmNano.GetNanoRepository();
+  return repository;
+}
+
+module.exports = function() {
+
+var nanoImport = function(dataToImport){
   var docs = {"docs":dataToImport}
-  repository._db.bulk(docs,{},function(err,body){ if(err) console.log(err); else console.log(body); });
+  getRepository()._db.bulk(docs,{},function(err, body){ if(err) console.log(err); else console.log(body); });
 };
 
-var importData = function (dataToImport) {
-  var data = require(dataToImport);
+var importData = function (dataToImport, channels) {
+  var data = JSON.parse(require('fs').readFileSync(dataToImport, 'utf8'))
+  //var data = require(dataToImport);
   var toImport =  Array.isArray(data) ? data : data.rows.filter(function(eachDoc){return eachDoc.doc.dataType && eachDoc.doc.dataType.startsWith('entity');}).map(function(eachDoc){ var transformed = eachDoc.doc; delete transformed['_rev']; return transformed;});
+  if(channels) {
+    toImport.forEach(function(each){ if(each.channels) {each.channels.push(channels); each.channels = [].concat.apply([],each.channels);} })
+  }
   console.log('Found ' + toImport.length + ' records to import.');
   nanoImport(toImport);
 };
 
 return  {
   importData: importData,
-    initializeDB: function (dataToImport, afterInit) {
+    initializeDB: function (dataToImport, channels) {
       console.log('Importing data.');
-      importData(dataToImport);
+      importData(dataToImport, channels);
     },
   }
 }
 
+function getPMAppFromJson(appJsonFileName) {
+  var app = require(appJsonFileName);
+  var webapp = 'webapp-' + app.starter + '_' + app.dependencies[app.starter].replace(/\./g, '_')
+  return getRepository().findByIdAsync(webapp);
+}
+
+function doImport(channels) {
+  console.log('importing using data [' + initialData + ']');
+  module.exports().initializeDB(initialData, channels);
+}
+
+var initialData;
+var pmAppPromise;
 // parse input:
 program
     .usage('[path/to/initial/data.json] *the initial/data.json is optional. It will use Sample data as a default.')
-    .option('--debug', 'Set logging level to debug (more traces than "verbose")')
-    .option('--verbose', 'Set logging level to verbose.')
+    .option('-D, --debug', 'Set logging level to debug (more traces than "verbose")')
+    .option('-v, --verbose', 'Set logging level to verbose.')
+    .option('-d, --data [value]', 'Specifies the data.json file to import.')
+    .option('-a, --app [value]', 'Specifies the app.json file to consider. It is read to determine the channel for imported docs')
     .parse(process.argv);
 
-var initialData = typeof program.args[0] == "undefined" ? "./lib/data.json": program.args[0];
-console.log('importing using data [' + initialData + ']');
-module.exports().initializeDB(initialData);
+initialData = program.data;
+if (! initialData) initialData = typeof program.args[0] == "undefined" ? "./lib/data.json" : program.args[0];
+initialData = initialData.startsWith('/') ? initialData : process.cwd() + '/' + initialData;
+
+if(program.app) pmAppPromise = getPMAppFromJson(program.app);
+else pmAppPromise = program.args[1] ? getPMAppFromJson(program.args[1]) : undefined;
+
+if (pmAppPromise) {
+  pmAppPromise.then(function (pmApp) {
+    var channels = pmApp.channels;
+    doImport(channels)
+  });
+}
+else doImport();
