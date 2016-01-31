@@ -1,26 +1,24 @@
-# pm CLI
+# pm CLI and UAA Configuration Scripts
+
+## Download pm CLI and UAA Configuration Scripts
 
 Visit the `Releases` page for the most recent available versions:
 
 https://github.com/PredixDev/predix-mobile-cli/releases
 
-## Installation
-
 Download the latest release for `Mac OS X` or `Windows` from the `Releases` page, which includes the compiled binary for the `pm-cli` utility.
 
-The release zip package also includes UAA configuration and UAA user creation shell scripts, for quickly configuring a UAA server for use with Predix-Mobile.
+The release zip package includes pm CLI plus UAA configuration and UAA user creation shell scripts for quickly configuring a UAA server for use with Predix-Mobile.
 
 _Note:_ For convenience in running the utility for use with the Predix-Mobile setup instructions, add the `pm` executable to your system PATH variable.
 
-## Usage
+## pm CLI Usage
 
-Command line usage is available for the `pm` utility via the utility help parameter:
+Command line usage is available for `pm` CLI via the --help parameter:
 
 ```
 pm --help
 ```
-
-
 
 
 # UAA Utility Scripts
