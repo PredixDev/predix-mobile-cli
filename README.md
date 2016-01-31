@@ -1,4 +1,4 @@
-# PM-CLI Utility
+# pm CLI
 
 Visit the `Releases` page for the most recent available versions:
 
@@ -44,7 +44,7 @@ _Note:_ It is safe to re-run the `pm-configure-uaa.sh` script on an already conf
 
 ## Add Developer User
 
-Create a developer user on the UAA server, with full access to `pm` cli tool.  This utility creates the user, and grants them access to the `pm.admin` group.
+Create a developer user on the UAA server, with full access to `pm` CLI.  This utility creates the user, and grants them access to the `pm.admin` group.
 
 ```
 ./pm-add-developer.sh -e test@ge.com -p test
