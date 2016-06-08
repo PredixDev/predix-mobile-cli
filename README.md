@@ -19,7 +19,7 @@ Command line usage is available for `pm` CLI via the --help parameter:
 ```
 pm --help
 ```
-
+For more details, see [Predix Mobile Command-Line Interface (pm CLI) Commands](https://www.predix.io/docs#eunSuw9j).
 
 # UAA Utility Scripts
 
