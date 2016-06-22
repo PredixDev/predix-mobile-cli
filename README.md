@@ -2,15 +2,13 @@
 
 ## Download pm CLI and UAA Configuration Scripts
 
-Visit the `Releases` page for the most recent available versions:
+Download the latest release for `Mac OS X` or `Windows` from the `Releases` page, which includes the compiled binary for the `pm-cli` utility:
 
 https://github.com/PredixDev/predix-mobile-cli/releases
 
-Download the latest release for `Mac OS X` or `Windows` from the `Releases` page, which includes the compiled binary for the `pm-cli` utility.
+The release zip package includes pm CLI and the UAA configuration and UAA user creation shell scripts. The scripts enable you to quickly configure a UAA server for use with Predix Mobile.
 
-The release zip package includes pm CLI plus UAA configuration and UAA user creation shell scripts for quickly configuring a UAA server for use with Predix-Mobile.
-
-_Note:_ For convenience in running the utility for use with the Predix-Mobile setup instructions, add the `pm` executable to your system PATH variable.
+_Note:_ For convenience in running the pm CLI, add the `pm` executable to your system PATH variable.
 
 ## pm CLI Usage
 
@@ -42,7 +40,7 @@ _Note:_ It is safe to re-run the `pm-configure-uaa.sh` script on an already conf
 
 ## Add Developer User
 
-Create a developer user on the UAA server, with full access to `pm` CLI.  This utility creates the user, and grants them access to the `pm.admin` group.
+Create a developer user on the UAA server that provides the user with full access to the `pm` CLI tool.  This utility creates the user, and grants them access to the `pm.admin` group.
 
 ```
 ./pm-add-developer.sh -e test@ge.com -p test
