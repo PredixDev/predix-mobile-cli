@@ -1,4 +1,4 @@
-# pm CLI and UAA Configuration Scripts (v1.2.6)
+# pm CLI and UAA Configuration Scripts (v1.2.7)
 
 ## Download pm CLI and UAA Configuration Scripts
 
